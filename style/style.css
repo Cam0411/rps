@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url("https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contanier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  width: 100%;
+}
+
+.contanier .value__box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.contanier .value__box i {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contanier .value__box .bot__value {
+  margin-left: -2px;
+}
+
+.contanier .win__lose {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contanier .result__box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.contanier .rps__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  cursor: pointer;
+}
+
+.contanier .rps__box .rock {
+  padding: 8px 20px;
+  background: red;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contanier .rps__box .paper {
+  padding: 8px 20px;
+  background: #e8eb34;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contanier .rps__box .scissor {
+  padding: 8px 20px;
+  background: #16ff12;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
